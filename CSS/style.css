@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'montseratt', sans-serif;
+    color: whitesmoke;
+}
+
+.hero-image {
+    background: rgba(0, 0, 0, 0.7) url(../images/tall-building.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.himage {
+    background: rgba(0, 0, 0, 0.7) url(../images/tall-building.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    margin-bottom: 10%;
+
+}
+
+
+
+
+#twitter {
+    border-radius: 50%;
+    padding-bottom: 5px;
+    padding-left: 3px;
+}
+
+#git {
+    border-radius: 50%;
+    padding-bottom: 5px;
+    padding-right: 3px;
+}
+
+.nav-bar {
+    float: right;
+    list-style: none;
+    margin-right: 60px;
+
+
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin-right: 60px;
+
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    font-size: 14px;
+    padding-bottom: 10%;
+    padding: 5px 20px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    margin-right: 60px;
+
+}
+
+.black {
+    background-color: black;
+}
+
+#pic {
+    margin-left: 40%;
+}
+
+.img {
+    border-radius: 50%;
+    margin-left: 40%;
+
+
+
+}
+
+#intro {
+    font-size: 14px;
+    margin-right: 6%;
+
+
+}
+
+.hero-text {
+    color: whitesmoke;
+    padding-left: 15%;
+
+
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.ch2 {
+    padding-left: 5%;
+}
+
+.ch1 {
+    padding-left: 2%;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.chi2 {
+    padding-left: 48%;
+}
+
+.chi1 {
+    padding-left: 3%;
+}
+
+.container2 .chi1 .skills .percent {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: whitesmoke;
+    display: block;
+    margin-top: 5px;
+
+
+}
+
+.container2 .chi1 .skills .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(233, 8, 120);
+}
+
+.email {
+    margin-bottom: 5px;
+}
+
+.dd {
+    margin-bottom: 6px;
+}
+
+#fs {
+    margin-right: 10%;
+
+}
+
+@media only screen and(min-width:600px) {
+    .black {
+        display: flex;
+        flex-direction: column;
+    }
+
+    body {
+        font-size: small;
+    }
+
+    .img {
+        text-align: center;
+        width: 170px;
+        height: 170px;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media only screen and(min-width:768px) {
+    .black {
+        display: flex;
+        flex-direction: column;
+    }
+
+    body {
+        font-size: medium;
+    }
+
+
+}
+
+@media only screen and(min-width:992) {
+    .nav-bar {
+        font-stretch: wider;
+    }
+
+    .img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+
+}
